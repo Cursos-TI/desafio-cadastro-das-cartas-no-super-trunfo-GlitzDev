@@ -14,11 +14,39 @@ int main() {
     char estado[50], codigoCarta[10], nomeDaCidade[50];
     float area, pib;
     
-
-    printf("Escolha a carta 1 ou 2:");
+    printf("Escolha um numero de 1 a 2 para sua carta: ");
     scanf("%d", &carta);
 
-    printf("voce ecolheu a carta : %d");
+    printf("Escolha um Estado de A a H: ");
+    scanf("%s", &estado);
+
+    printf("Escolha um codigo para a sua carta de 01 a 04: ");
+    scanf("%s", &codigoCarta);
+
+    printf("Escolha uma cidade: ");
+    scanf("%s", &nomeDaCidade);
+
+    printf("Digite quantos habitantes tem na cidade: ");
+    scanf("%d", &populacao);
+
+    printf("Quantos quilometros tem a cidade: ");
+    scanf("%f", &area);
+
+    printf("Qual é o PIB dessa cidade: ");
+    scanf("%f", &pib);
+
+    printf("Quantos pontos turisticos tem a cidade: ");
+    scanf("%d", &pontosTuristicos);
+
+    printf("A sua carta é a seguinte: \n");
+    printf("Carta: %d \n", carta);
+    printf("Estado: %s \n", estado);
+    printf("Codigo: %s \n", codigoCarta);
+    printf("Nome da cidade: %s \n", nomeDaCidade);
+    printf("População: %d \n", populacao);
+    printf("Área: %f \n", area);
+    printf("PIB: %f \n", pib);
+    printf("Numero de pontos turisticos: %d \n", pontosTuristicos);
 
     
     // Cadastro das Cartas:
